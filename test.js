@@ -22,7 +22,7 @@ function f1() {
   body.appendChild(button);
 
     var d = new Date();
-  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  d.setTime(d.getTime() + (2*24*60*60*1000));
   var expires = "expires=" + d.toGMTString();
   document.cookie = "C1" + "=" + "I am a CapitalOne Cookie" + ";" + expires + ";path=/";
   
