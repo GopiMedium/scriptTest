@@ -29,7 +29,7 @@ function f1() {
   // 3. Add event handler
   button.addEventListener("click", function() {
     alert("Cookie : " + getCookie("C1"));
-    openModal(getCookie("C1"));
+    openModal('myModal1');
   });
   
  
