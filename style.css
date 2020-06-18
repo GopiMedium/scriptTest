@@ -12,3 +12,45 @@ button {
 button:hover {
   background: lightsalmon;
 }
+
+
+/* Updated CSS with open selector */
+
+.modal.open {
+  transform: translateX(0px);
+}
+
+.modal {
+  /* Update CSS with transition and transform rules */
+  transition: transform 1s linear;
+  transform: translateX(-100%);
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.modal-content {
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+.close {
+  color: #323232;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #424242;
+  text-decoration: none;
+  cursor: pointer;
+}
