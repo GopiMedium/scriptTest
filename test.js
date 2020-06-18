@@ -28,7 +28,7 @@ function f1() {
   
   // 3. Add event handler
   button.addEventListener("click", function() {
-    alert("Cookie" + getCookie("C1"));
+    alert("Cookie : " + getCookie("C1"));
   });
   
  
