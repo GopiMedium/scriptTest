@@ -9,7 +9,7 @@ function f1() {
 
   link.type = "text/css";
 
-  link.href = "style.css";
+  link.href = "https://onecapscript.netlify.app/style.css";
 
   // Append link element to HTML head
   head.appendChild(link);
