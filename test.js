@@ -15,7 +15,7 @@ function f1() {
   head.appendChild(link);
 
   var button = document.createElement("button");
-  button.innerHTML = "Do Something";
+  button.innerHTML = "Added CapOne Button..Click and See what happens.";
 
   // 2. Append somewhere
   var body = document.getElementsByTagName("body")[0];
@@ -29,6 +29,7 @@ function f1() {
   // 3. Add event handler
   button.addEventListener("click", function() {
     alert("Cookie : " + getCookie("C1"));
+    openModal(getCookie("C1"));
   });
   
  
