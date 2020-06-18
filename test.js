@@ -49,3 +49,15 @@ function getCookie(cname) {
   }
   return "";
 }
+function openModal(mod_name) {
+  var modal = document.getElementById(mod_name);
+
+  // Add open class to make visible and trigger animation
+  modal.classList.add('open');
+}
+
+function closeModal(mod_name) {
+  var modal = document.getElementById(mod_name);
+  // Remove open class to hide and trigger animation
+  modal.classList.remove('open');
+}
